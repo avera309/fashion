@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.5s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color:black;
+  }
+  .inset-0{
+    bottom: auto;
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
